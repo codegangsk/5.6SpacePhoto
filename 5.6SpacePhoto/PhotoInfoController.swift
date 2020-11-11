@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PhotoInfoController {
+class PhotoInfoController {
     func fetchPhotoInfo(completion: @escaping (PhotoInfo?) -> Void) {
         let baseURL = URL(string: "http://api.nasa.gov/planetary/apod")!
     
