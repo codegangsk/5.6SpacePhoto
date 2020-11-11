@@ -15,6 +15,7 @@
 		2A7FDECC255B7A0A00E13001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FDECA255B7A0A00E13001 /* LaunchScreen.storyboard */; };
 		2A7FDED7255B7A0A00E13001 /* __6SpacePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDED6255B7A0A00E13001 /* __6SpacePhotoTests.swift */; };
 		2A7FDEE2255B7A0A00E13001 /* __6SpacePhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDEE1255B7A0A00E13001 /* __6SpacePhotoUITests.swift */; };
+		2A7FDEF3255B83A300E13001 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDEF2255B83A300E13001 /* PhotoInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2A7FDEDD255B7A0A00E13001 /* 5.6SpacePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5.6SpacePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7FDEE1255B7A0A00E13001 /* __6SpacePhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __6SpacePhotoUITests.swift; sourceTree = "<group>"; };
 		2A7FDEE3255B7A0A00E13001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7FDEF2255B83A300E13001 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2A7FDEC1255B7A0800E13001 /* SceneDelegate.swift */,
 				2A7FDEC3255B7A0800E13001 /* ViewController.swift */,
 				2A7FDEC5255B7A0800E13001 /* Main.storyboard */,
+				2A7FDEF2255B83A300E13001 /* PhotoInfo.swift */,
 				2A7FDEC8255B7A0A00E13001 /* Assets.xcassets */,
 				2A7FDECA255B7A0A00E13001 /* LaunchScreen.storyboard */,
 				2A7FDECD255B7A0A00E13001 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7FDEF3255B83A300E13001 /* PhotoInfo.swift in Sources */,
 				2A7FDEC4255B7A0800E13001 /* ViewController.swift in Sources */,
 				2A7FDEC0255B7A0800E13001 /* AppDelegate.swift in Sources */,
 				2A7FDEC2255B7A0800E13001 /* SceneDelegate.swift in Sources */,
