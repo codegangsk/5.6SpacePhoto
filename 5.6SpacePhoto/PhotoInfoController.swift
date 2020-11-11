@@ -8,12 +8,14 @@
 import Foundation
 
 class PhotoInfoController {
+}
+
+extension PhotoInfoController {
     func fetchPhotoInfo(completion: @escaping (PhotoInfo?) -> Void) {
         let baseURL = URL(string: "https://api.nasa.gov/planetary/apod")!
     
         let query: [String: String] = [
         "api_key": "DEMO_KEY",
-        "date": "1996-06-04"
         ]
     
         let url = baseURL.withQueries(query)!
