@@ -17,6 +17,7 @@
 		2A7FDEE2255B7A0A00E13001 /* __6SpacePhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDEE1255B7A0A00E13001 /* __6SpacePhotoUITests.swift */; };
 		2A7FDEF3255B83A300E13001 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDEF2255B83A300E13001 /* PhotoInfo.swift */; };
 		2A7FDEF8255B857A00E13001 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDEF7255B857A00E13001 /* URL+Helpers.swift */; };
+		2A7FDEFD255B87A500E13001 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FDEFC255B87A500E13001 /* PhotoInfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2A7FDEE3255B7A0A00E13001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A7FDEF2255B83A300E13001 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 		2A7FDEF7255B857A00E13001 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
+		2A7FDEFC255B87A500E13001 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2A7FDEC5255B7A0800E13001 /* Main.storyboard */,
 				2A7FDEF2255B83A300E13001 /* PhotoInfo.swift */,
 				2A7FDEF7255B857A00E13001 /* URL+Helpers.swift */,
+				2A7FDEFC255B87A500E13001 /* PhotoInfoController.swift */,
 				2A7FDEC8255B7A0A00E13001 /* Assets.xcassets */,
 				2A7FDECA255B7A0A00E13001 /* LaunchScreen.storyboard */,
 				2A7FDECD255B7A0A00E13001 /* Info.plist */,
@@ -266,6 +269,7 @@
 			files = (
 				2A7FDEF3255B83A300E13001 /* PhotoInfo.swift in Sources */,
 				2A7FDEF8255B857A00E13001 /* URL+Helpers.swift in Sources */,
+				2A7FDEFD255B87A500E13001 /* PhotoInfoController.swift in Sources */,
 				2A7FDEC4255B7A0800E13001 /* ViewController.swift in Sources */,
 				2A7FDEC0255B7A0800E13001 /* AppDelegate.swift in Sources */,
 				2A7FDEC2255B7A0800E13001 /* SceneDelegate.swift in Sources */,
